@@ -23,16 +23,8 @@ if( isset($_POST["username"]) && isset($_POST["password"]) && isset($_POST["emai
       $password = $_POST["password"];
       $email    = $_POST["email"];
 
-      $names = array("admin", "angel1", "parola", "cheese1", "ferrari", "christian", "eminem", "victoria", "arsenal", "dpbk1234", "butterfly", "q1w2e3r4t5y6", "trustno1");
-      $count_array = count($names);
-
-      for($x=0; $x <= $count_array; $x++){
-        if($username == $names[$x]){
-            echo "User already exists";
-        }
-        // echo $names[$x];
-
-      }
+      $password = "1qaz2wsx3edc";
+      
 }
 
 ?>
